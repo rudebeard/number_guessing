@@ -1,0 +1,26 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  text-align: center;
+  background-color: aqua;
+}
+
+h1{
+ margin-top: 0;
+ color: red;
+ font-style: oblique;
+ font-weight: 600; 
+ text-shadow: 10px 10px 5px darkgray;
+ background-color: bisque;
+ font-size: 65px;
+}
+#wrapper{
+  background-color: #45bb32cc;
+  font-size: 35px;
+  width: 80%;
+  margin: 0px auto;
+}
