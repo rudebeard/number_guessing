@@ -44,7 +44,7 @@ guessSubmit.addEventListener('click',checkGuess);
 
 function setGameOver(){
   guessField.disabled=true;
-  guessSubmit.disbled=true;
+  guessSubmit.disabled=true;
   resetButton= document.createElement('button');
   resetButton.textContent = 'Play Again';
   document.body.appendChild(resetButton);
@@ -62,7 +62,7 @@ function resetGame (){
   resetButton.parentNode.removeChild(resetButton);
 
   guessField.disabled=false;
-  guessSubmit.value='';
+  guessSubmit.disabled=false;
   guessField.focus();
 
   randomNumber = Math.floor(Math.random()*100)+1;

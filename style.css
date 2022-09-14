@@ -6,7 +6,7 @@
 
 body{
   text-align: center;
-  background-color:;
+  height: 100vh;
 }
 
 h1{
@@ -41,5 +41,46 @@ p{
   margin-top: 30px;
   border-radius: 12px;
   outline: none;
-  
+  text-align: center;
+}
+
+#subt{
+  width: 100px;
+  height: 30px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-style: oblique;
+  font-weight: 600;
+  color: white;
+  background-color: red;
+  border-radius: 10px;
+  outline: none;
+  margin-top: 20px;
+}
+
+#subt:hover{
+  background-color: white;
+  color: red;
+  cursor: pointer;
+}
+
+.guesses{
+  color: white;
+  background-color: rgb(11, 93, 247);
+}
+
+.lastResult{
+  color: white;
+  background-color: red;
+  /* width: 20%; */
+
+}
+
+button{
+  background-color: #cc3245;
+  color: white;
+  height: 40px;
+  border-radius: 15px;
+  font-size: 18px;
+  margin-top: 20px;
 }
