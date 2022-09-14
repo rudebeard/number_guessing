@@ -6,7 +6,7 @@
 
 body{
   text-align: center;
-  background-color: aqua;
+  background-color:;
 }
 
 h1{
@@ -19,8 +19,27 @@ h1{
  font-size: 65px;
 }
 #wrapper{
+  position: relative;
   background-color: #45bb32cc;
   font-size: 35px;
   width: 80%;
   margin: 0px auto;
+  padding: 25px 0px;
+  text-transform: uppercase;
+  margin-top: 120px;
+  border-radius: 10px;
+}
+p{
+  text-align: center;
+}
+
+#guessField{
+  color: black;
+  width: 50%;
+  height: 48px;
+  font-size: 30px;
+  margin-top: 30px;
+  border-radius: 12px;
+  outline: none;
+  
 }
